@@ -22,15 +22,18 @@ Your Automation Tasks:
 You will find three existing tests within tests/donationForm.spec.ts:
 
   Bloomerang Donation Form - Basic Functionality: This is a basic test to ensure the environment is working. It should pass.
+  
   Donate button should display "Donate $25.00" initially:
-    This test is designed to fail in its current state.
-    Your Task: Investigate why this test fails & Correct
+   - This test is designed to fail in its current state.
+   - Your Task: Investigate why this test fails & Correct
+    
   Verify $50 donation with Savings shows correct button text:
-    This test should pass but is not written according to best practices there seems to be an issue with its locators.
-    Your Task: Refactor this test to improve its readability, maintainability, and to make use of the helper functions.
+   - This test should pass but is not written according to best practices there seems to be an issue with its locators.
+   - Your Task: Refactor this test to improve its readability, maintainability, and to make use of the helper functions.
+    
   Implement New Automated Tests (Based on YOUR Test Plan from Part 1):
-    Refer to the test plan you created in Part 1 for the User Story: "Donation Forms: Display Donation Total on Donate Button."
-    Implement these selected test cases as new automated tests in tests/donationForm.spec.ts
+   - Refer to the test plan you created in Part 1 for the User Story: "Donation Forms: Display Donation Total on Donate Button."
+   - Implement these selected test cases as new automated tests in tests/donationForm.spec.ts
 
 Submitting Your Automation Work:
 Please share a link to a forked repository for your automation work.
