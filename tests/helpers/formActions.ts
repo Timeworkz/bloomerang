@@ -11,16 +11,16 @@ export const otherAmountInput = 'input[data-testid="transaction.donation.amount.
 
 // Contact Info
 export const firstNameInput = '#first-name';
-export const lastNameInput = 'input[data-testid="contact.lastName"]';
-export const emailInput = 'input[data-testid="contact.email"]';
-export const phoneInput = 'input[data-testid="contact.phoneNumber"]';
+export const lastNameInput = '#last-name';
+export const emailInput = '#email-address';
+export const phoneInput = '#phone-number';
 
 // Billing Address
-export const countrySelect = 'select[data-testid="billingAddress.country"]';
-export const addressInput = 'input[data-testid="billingAddress.street"]';
-export const cityInput = 'input[data-testid="billingAddress.city"]';
-export const stateSelect = 'select[data-testid="billingAddress.state"]';
-export const zipInput = 'input[data-testid="billingAddress.postalCode"]';
+export const countrySelect = '#country';
+export const addressInput = '#street-address';
+export const cityInput = '#city';
+export const stateSelect = '#state';
+export const zipInput = '#zip-code';
 
 // Payment Information
 export const creditCardRadio = 'input[name="radio-set-3"][value="creditCard"]';
